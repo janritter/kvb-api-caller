@@ -1,6 +1,6 @@
 # KVB API caller
 
-This is a small application calling the [KVB API](https://github.com/janritter/kvb-api) to demonstrate distributed tracing with OpenTelemetry and Jaeger
+This is a small application calling the [KVB API](https://github.com/janritter/kvb-api) to demonstrate distributed tracing with OpenTelemetry
 
 ## Setup
 
@@ -25,5 +25,5 @@ pip3 install -r requirements.txt
 ## Usage
 
 1. Start the [KVB API](https://github.com/janritter/kvb-api) on localhost:8080
-2. Start a locally running Jaeger or adapt Jager configuration in `app.py`
+2. Start a locally running Open Telemetry collector on port 4317 or adapt the configuration in `app.py`
 3. Start the kvb-api-caller via `python3 app.py`

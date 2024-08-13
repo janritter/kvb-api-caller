@@ -3,3 +3,5 @@ opentelemetry-sdk==1.9.1
 opentelemetry-exporter-jaeger==1.9.1
 requests==2.27.1
 opentelemetry-instrumentation-requests==0.28b1
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
